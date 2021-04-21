@@ -1,7 +1,7 @@
 baseURL = "https://www.example.com"
 languageCode = "en-us"
 title = "Mind Drip Media"
-theme = "mdm-hugo"
+theme = "mdm"
 removePathAccents = true
 
 
