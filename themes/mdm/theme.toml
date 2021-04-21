@@ -1,15 +1,13 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "Infinity Hugo"
+name = "mdm"
 license = "MIT"
-licenselink = "https://github.com/themefisher/infinity-hugo/blob/master/LICENSE"
-description = "Hugo port of the Themefisher’s Infinity Template"
-homepage = "https://gethugothemes.com/products/infinity/"
-tags = ['comming-soon', 'landing-page', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap4', 'gethugothemes']
-features = ['bootstrap4','responsive']
+licenselink = "https://github.com/q5sys/mdmsite/master/LICENSE"
+description = "A port of the Themefisher’s Infinity Template"
+homepage = "https://minddripmedia.com"
 min_version = "0.64.0"
 
 [author]
-  name = "Themefisher"
-  homepage = "https://themefisher.com/"
+  name = "MDM"
+  homepage = "https://minddripmedia.com"
