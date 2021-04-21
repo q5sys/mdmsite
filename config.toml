@@ -1,0 +1,106 @@
+baseURL = "https://www.example.com"
+languageCode = "en-us"
+title = "Mind Drip Media"
+theme = "mdm-hugo"
+removePathAccents = true
+
+
+
+# HTML before the closing </head>
+[params]
+customHead = ""
+
+# Navigation
+[params.navigation]
+logo = "images/logo.svg"
+home = "Home"
+about = "About"
+content = "Content"
+service = "Services"
+contact = "Contact"
+
+# Hero Area
+[params.hero]
+enable            = true
+bg                = "images/logo.svg"
+title             = "Mind Drip Media"
+subtitle          = "Promoting Open Source through Media"
+btnText           = ""
+
+# counter
+disableCountdown  = true
+countdownYear = "2021"
+countdownMonth = "12"
+countdownDay  = "31"
+
+# About Section
+[params.about]
+enable      = true
+heading     = "Who we are"
+description = "Mind Drip Media is the eventuality of many years of discussion by several Content Creators who love linux.  We look to become a resource for Linux and Open Source focused content and to encourage and help others get started in becoming an open source evangalist."
+
+[[params.about.sliderItem]]
+image   = "images/Point1.png"
+[[params.about.sliderItem]]
+image   = "images/Point2.png"
+[[params.about.sliderItem]]
+image   = "images/Point3.png"
+[[params.about.sliderItem]]
+image   = "images/Point4.png"
+
+
+# Content Section
+[params.content]
+enable = true
+title = "Our Shows"
+[[params.content.contentItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-strategy"
+title   = "Ask Noah Show"
+description = "Noah's weekly Call-In Radio Show on KEQQ FM and streaming live at Asknoahshow.com"
+delay   = "0s"
+
+[[params.content.contentItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-circle-compass"
+title   = "The Opinion Dominion"
+description = "Two old Linux/Unix/OpenSource guys talking about the past and future, of *nix, Open Source and other Tech related things."
+delay   = "0.2s"
+
+[[params.content.contentItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-anchor2"
+title   = "Open Source Voices"
+description = "A show focusing on the people involved in Open Source."
+delay   = "0.4s"
+
+[[params.content.contentItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-globe"
+title   = "Other Content"
+description = "Check out our other youtube videos."
+delay   = "0.6s"
+
+# Service Section
+[params.service]
+enable      = false
+
+# Call to Action Section
+[params.cta]
+enable      = false
+bg          = "/images/image.png"
+title       = "Subscribe to our mailing list"
+subtitle    = "Lorem ipsum"
+
+[params.contact]
+enable      = true
+title       = "Get In Touch"
+subtitle    = "Lorem ipsum"
