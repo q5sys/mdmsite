@@ -23,7 +23,7 @@ contact = "Contact"
 [params.hero]
 enable            = true
 bg                = "images/logo.svg"
-title             = "Mind Drip Media"
+title             = ""
 subtitle          = "Promoting Open Source through Media"
 btnText           = ""
 
@@ -54,37 +54,30 @@ image   = "images/Point4.png"
 enable = true
 title = "Our Shows"
 [[params.content.contentItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon    = "tf-strategy"
+image   = "images/ans.png"
+link    = "http://www.asknoahshow.com"
 title   = "Ask Noah Show"
 description = "Noah's weekly Call-In Radio Show on KEQQ FM and streaming live at Asknoahshow.com"
 delay   = "0s"
 
 [[params.content.contentItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-circle-compass"
+image   = "images/tod.png"
+link    = "https://www.theopiniondominion.org"
 title   = "The Opinion Dominion"
 description = "Two old Linux/Unix/OpenSource guys talking about the past and future, of *nix, Open Source and other Tech related things."
 delay   = "0.2s"
 
 [[params.content.contentItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-anchor2"
-title   = "Open Source Voices"
+image   = "images/osv.png"
+link    = "https://www.opensourcevoices.org"
+title   = "The Opinion Dominion"
 description = "A show focusing on the people involved in Open Source."
 delay   = "0.4s"
 
 [[params.content.contentItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-globe"
+image   = "images/mdm.jpg"
+link    = "https://www.youtube.com/minddripmedia"
 title   = "Other Content"
 description = "Check out our other youtube videos."
 delay   = "0.6s"
@@ -95,12 +88,12 @@ enable      = false
 
 # Call to Action Section
 [params.cta]
-enable      = false
+enable      = true
 bg          = "/images/image.png"
-title       = "Subscribe to our mailing list"
-subtitle    = "Lorem ipsum"
+title       = "Get In Touch"
+subtitle    = "Contact us through any of the contact pages for our shows."
 
 [params.contact]
-enable      = true
+enable      = false
 title       = "Get In Touch"
-subtitle    = "Lorem ipsum"
+subtitle    = "Contact us through any of the contact pages for our shows."
