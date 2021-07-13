@@ -1,4 +1,4 @@
-baseURL = "https://www.minddripmedia.com"
+baseURL = "/"
 languageCode = "en-us"
 title = "Mind Drip Media"
 theme = "mdm"
