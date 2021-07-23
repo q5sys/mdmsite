@@ -12,7 +12,7 @@ customHead = ""
 
 # Navigation
 [params.navigation]
-logo = "images/logo.svg"
+logo = ""
 home = "Home"
 about = "About"
 content = "Content"
@@ -22,9 +22,9 @@ contact = "Contact"
 # Hero Area
 [params.hero]
 enable            = true
-bg                = "images/logo.svg"
+bg                = "images/logo.png"
 title             = ""
-subtitle          = "Promoting Open Source through Media"
+subtitle          = ""
 btnText           = ""
 
 # counter
