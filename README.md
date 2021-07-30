@@ -1,6 +1,6 @@
 # mdmsite
 mdmsite
-
+ 
 Steps to preview:
 
 1) Install Hugo
@@ -19,3 +19,5 @@ Updated Steps to deploy so even a toddler could deploy this:
 6) run `cd public`
 7) run `rsync -vz ./ ${yourserver}`
 8) sit back and wonder why we've been 30 seconds away from this being done for months.
+
+.
